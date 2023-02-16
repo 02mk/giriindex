@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+body {
+    font-family: 'Poppins', sans-serif;
+    height:100vh;
+}
+
+.navbar-default {
+    background-color: #8fd8e7;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #e13e3e;
+    background-color: #258ca1;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    max-height: 700px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.carousel-control {
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+p {
+    color: #000000;
+}
+
+.container-fluid {
+    padding-top: 50px;
+}
+
+.card {
+    width: 100%;
+    border: 1px solid #8fd8e74f;
+    border-radius: 25px;
+    height: 225px;
+    max-height: 300px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    background-repeat: no-repeat;
+}
+
+.card:hover {
+    transform: scale(1.009);
+}
+
+.animi {
+    width: 168px;
+    height: 160px;
+    background-color: lightblue;
+    border-radius: 50%;
+    top: -30px;
+    right: -30px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+.animibig {
+    width: 168px;
+    height: 160px;
+    background-color: lightblue;
+    border-radius: 50%;
+    top: -30px;
+    right: -30px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+.card:hover .animi {
+    width: 600px;
+    height: 600px;
+    background-color: lightblue;
+    border-radius: 50%;
+    top: -85px;
+    right: -80px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+.card:hover .animibig {
+    width: 850px;
+    height: 850px;
+    background-color: lightblue;
+    border-radius: 50%;
+    top: -120px;
+    right: -120px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+.sidebar{
+    background-color: #CCC;
+    height: 100%;
+    margin-left: 10px;
+}
+.sidebar li{
+   padding: 20px;
+    margin-left: 10px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #8fd8e7;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
